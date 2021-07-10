@@ -1,0 +1,25 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+ul {
+    padding-left: 100px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+input {
+    font-size: larger;
+    margin-left: 20px;
+}
+
+a {
+    font-family: sans-serif ;
+    font-size: larger;
+    font-weight: bolder;
+    padding-left: 20px;
+    line-height: 50px;
+}

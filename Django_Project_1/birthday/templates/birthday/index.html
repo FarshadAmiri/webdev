@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Is It My Birthday?</title>
+    <link href="{% static 'birthday/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    {% if is_birthday %}
+        <h1 id="yes">YES!!!</h1>
+        <h1 id = 'congrats_message'>فرشاد تولدت مبارک!</h1>
+    {% else %}
+        <h1 id="no">NO</h1>
+    {% endif %}
+</body>
+</html>
